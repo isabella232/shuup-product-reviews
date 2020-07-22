@@ -8,8 +8,8 @@
 import json
 
 import pytest
-from django.core.urlresolvers import reverse
 from django.test.client import Client
+from django.urls import reverse
 
 from shuup.testing import factories
 from shuup.testing.utils import apply_request_middleware

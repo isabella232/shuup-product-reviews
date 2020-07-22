@@ -64,9 +64,12 @@ class VendorReviewQuerySet(models.QuerySet):
 
 
 class VendorReview(models.Model):
-    shop = models.ForeignKey("shuup.Shop", verbose_name=_("shop"), related_name="supplier_reviews")
-    supplier = models.ForeignKey("shuup.Supplier", verbose_name=_("supplier"), related_name="supplier_reviews")
-    reviewer = models.ForeignKey("shuup.Contact", verbose_name=_("reviewer"), related_name="supplier_reviews")
+    shop = models.ForeignKey(
+        "shuup.Shop", verbose_name=_("shop"), related_name="supplier_reviews", on_delete=models.CASCADE)
+    supplier = models.ForeignKey(
+        "shuup.Supplier", verbose_name=_("supplier"), related_name="supplier_reviews", on_delete=models.CASCADE)
+    reviewer = models.ForeignKey(
+        "shuup.Contact", verbose_name=_("reviewer"), related_name="supplier_reviews", on_delete=models.CASCADE)
     rating = models.PositiveIntegerField(
         verbose_name=_("rating"),
         validators=[MaxValueValidator(5), MinValueValidator(1)]
@@ -117,6 +120,7 @@ class VendorReviewAggregation(models.Model):
         "shuup.Supplier",
         verbose_name=_("supplier"),
         related_name="supplier_reviews_aggregation",
+        on_delete=models.CASCADE
     )
     rating = models.DecimalField(max_digits=2, decimal_places=1, verbose_name=_("rating"), default=0)
     review_count = models.PositiveIntegerField(verbose_name=_("review count"), default=0)
