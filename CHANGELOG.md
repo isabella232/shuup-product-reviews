@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Enter here all the changes made to the development version
 
+## [0.6.4] - 2020-07-24
+
+- Add option for marketplace staff to define options for vendior reviews.
+  These options can be used to categorize/group reviews. For example some
+  options could be "Delivery", "Service Quality", "Service Price" etc... after
+  the customer can leave review separately for each option.
+
 ## [0.6.0] - 2020-01-16
 
 ### Added
