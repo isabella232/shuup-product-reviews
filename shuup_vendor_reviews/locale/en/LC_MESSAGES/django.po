@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-03 08:50+0000\n"
+"POT-Creation-Date: 2020-07-24 15:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Vendor Review Options"
+msgstr ""
+
+msgid "Name"
+msgstr ""
 
 msgid "Vendor Reviews"
 msgstr ""
@@ -27,6 +33,15 @@ msgid "Show vendor reviews on dashboard"
 msgstr ""
 
 msgid "Show vendor reviews on dashboard menu"
+msgstr ""
+
+msgid "Vendor Reviews Option Settings"
+msgstr ""
+
+msgid "Show vendor reviews with options on dashboard"
+msgstr ""
+
+msgid "Show vendor reviews with option on dashboard menu"
 msgstr ""
 
 msgid "Approve reviews"
@@ -41,6 +56,16 @@ msgstr ""
 msgid "Filter by vendor..."
 msgstr ""
 
+msgid "Vendor Review Option"
+msgstr ""
+
+msgid "Filter by option..."
+msgstr ""
+
+#, python-format
+msgid "%s has been deleted."
+msgstr ""
+
 msgid "A review for this vendor already exists."
 msgstr ""
 
@@ -48,6 +73,9 @@ msgid "Show all"
 msgstr ""
 
 msgid "shop"
+msgstr ""
+
+msgid "enabled"
 msgstr ""
 
 msgid "supplier"
@@ -69,7 +97,7 @@ msgid "Indicates whether you would recommend this product to a friend."
 msgstr ""
 
 #, python-brace-format
-msgid "Review for {supplier} by {reviewer_name}"
+msgid "{option}Review for {supplier} by {reviewer_name}"
 msgstr ""
 
 msgid "review count"
@@ -130,6 +158,18 @@ msgid "Load more reviews text"
 msgstr ""
 
 msgid "Load more comments"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Select the option you want to show"
+msgstr ""
+
+msgid "Vendor Review Option Rating"
+msgstr ""
+
+msgid "Vendor Review Option Comments"
 msgstr ""
 
 msgid "Last reviews"
