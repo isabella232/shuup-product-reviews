@@ -11,8 +11,8 @@ import random
 import pytest
 from bs4 import BeautifulSoup
 from django.conf import settings
-from django.core.urlresolvers import reverse
 from django.test.client import Client
+from django.urls import reverse
 from faker import Faker
 
 from shuup.testing import factories

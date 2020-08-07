@@ -7,8 +7,8 @@
 # LICENSE file in the root directory of this source tree.
 import pytest
 from bs4 import BeautifulSoup
-from django.core.urlresolvers import reverse
 from django.test.client import Client
+from django.urls import reverse
 
 from shuup.core.models import Supplier
 from shuup.testing import factories
@@ -39,10 +39,10 @@ def test_reviews_view_multiple_supplires(rf):
 
     supplier1_name = "Supplier 1 name"
     supplier1 = Supplier.objects.create(identifier="1", name=supplier1_name)
-    supplier1.shops = [shop]
+    supplier1.shops.set([shop])
     supplier2_name = "Supplier 2 name"
     supplier2 = Supplier.objects.create(identifier="2", name=supplier2_name)
-    supplier2.shops = [shop]
+    supplier2.shops.set([shop])
     product = factories.create_product("test1", shop=shop, supplier=supplier1, default_price=10)
     shop_product = product.get_shop_instance(shop=shop)
     assert shop_product.suppliers.filter(id=supplier1.id).exists()

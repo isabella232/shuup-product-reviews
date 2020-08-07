@@ -5,7 +5,8 @@
 #
 # This source code is licensed under the OSL-3.0 license found in the
 # LICENSE file in the root directory of this source tree.
-from rest_framework import decorators, filters, mixins, response, viewsets
+from rest_framework import filters, mixins, response, viewsets
+from rest_framework.decorators import action
 from rest_framework.generics import get_object_or_404
 
 from shuup.core.models import get_person_contact, Supplier
@@ -71,7 +72,7 @@ class ReviewViewSet(mixins.ListModelMixin,
     filter_backends = (ReviewFilters,)
 
     def get_queryset(self):
-        if not self.request.user.is_authenticated():
+        if not self.request.user.is_authenticated:
             return self.queryset
 
         vendor_reviews = VendorReview.objects.filter(
@@ -92,7 +93,7 @@ class ReviewViewSet(mixins.ListModelMixin,
 
         return super().get_serializer_class()
 
-    @decorators.list_route(methods=["get"])
+    @action(detail=False, methods=["get"])
     def pending(self, request, *args, **kwargs):
         return self.list(request, *args, **kwargs)
 
