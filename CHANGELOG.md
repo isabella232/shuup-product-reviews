@@ -8,7 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Enter here all the changes made to the development version
 
+## [1.0.0] - 2020-08-07
+
+Add Shuup 2.0 support. Not backwards compatible with 1.x version.
+
+For patching old releases use "shuup1" branch.
+
 ## [0.6.4] - 2020-07-24
+
+Last stable release for Shuup 1
 
 - Add option for marketplace staff to define options for vendior reviews.
   These options can be used to categorize/group reviews. For example some
