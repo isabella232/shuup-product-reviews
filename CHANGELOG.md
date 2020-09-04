@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Enter here all the changes made to the development version
 
+- Fix vendor reviews serializer which defined while excluding it
+  (defining and excluding is not possible)
+
 ## [1.0.0] - 2020-08-07
 
 Add Shuup 2.0 support. Not backwards compatible with 1.x version.

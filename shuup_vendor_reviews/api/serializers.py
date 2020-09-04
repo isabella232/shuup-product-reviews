@@ -43,7 +43,7 @@ class ReviewSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = VendorReview
-        exclude = ("shop", "reviewer")
+        exclude = ("shop", )
         extra_kwargs = dict(
             status=dict(read_only=True),
         )
