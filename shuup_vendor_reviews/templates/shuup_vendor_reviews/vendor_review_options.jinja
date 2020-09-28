@@ -28,11 +28,11 @@
                         <h3>{{ supplier.name }}</h3>
                     </div>
                     <div class="list-group-item-text">
-                            {% for form_option in review_form.forms %}
+                        {% for form_option in review_form.forms %}
                             <hr>
-                            <h4>Option:{{form_option}}</h4>
-                                {{ render_form(review_form.forms[form_option])}}
-                            {% endfor %}
+                            <h4>{{ _("Option: {}").format(form_option) }}</h4>
+                            {{ render_vendor_review_form(review_form.forms[form_option])}}
+                        {% endfor %}
                     </div>
                 </div>
             {% endfor %}
@@ -51,11 +51,14 @@
     {% endif %}
 {% endblock %}
 
-{% macro render_form(form, except_fields=[]) %}
+{% macro render_vendor_review_form(form) %}
     {{ form.non_field_errors() }}
     {% for field in form.hidden_fields() %}{{ field|safe }}{% endfor %}
+
+    <div class="review-rating">{{ form.rating }}</div>
+
     {% for field in form.visible_fields() %}
-        {% if field not in except_fields %}
+        {% if field.name != "rating" %}
             {{ render_field(field) }}
         {% endif %}
     {% endfor %}
