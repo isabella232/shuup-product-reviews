@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Panu Tulimäki <panu@shuup.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 21:52+0000\n"
+"PO-Revision-Date: 2019-03-18 23:24+0000\n"
+"Last-Translator: Panu Tulimäki <panu@shuup.com>, 2020\n"
+"Language-Team: Finnish (Finland) (https://www.transifex.com/shuup/teams/55306/fi_FI/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi_FI\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Vendor Reviews"
+msgstr "Vendor arvostelut"
+
+msgid "Vendor Reviews Settings"
+msgstr "Toimittajan arvioiden asetukset"
+
+msgid "Show vendor reviews on dashboard"
+msgstr "Näytä toimittajan arvostelut kojelaudalla"
+
+msgid "Show vendor reviews on dashboard menu"
+msgstr "Näytä toimittajan arvostelut kojelautavalikossa"
+
+msgid "Approve reviews"
+msgstr "Hyväksy arvostelut"
+
+msgid "Reject reviews"
+msgstr "Hylkää arvostelut"
+
+msgid "Vendor"
+msgstr "Myyjä"
+
+msgid "Filter by vendor..."
+msgstr "Suodata toimittajan mukaan ..."
+
+msgid "Show all"
+msgstr "Näytä kaikki"
+
+msgid "shop"
+msgstr "myymälä"
+
+msgid "supplier"
+msgstr "toimittaja"
+
+msgid "reviewer"
+msgstr "arvostelija"
+
+msgid "rating"
+msgstr "luokitus"
+
+msgid "comment"
+msgstr "kommentti"
+
+msgid "Would recommend to a friend?"
+msgstr "Suosittelisin ystävälle?"
+
+msgid "Indicates whether you would recommend this product to a friend."
+msgstr "Osoittaa, suosittelisitko tätä tuotetta ystävällesi."
+
+#, python-brace-format
+msgid "Review for {supplier} by {reviewer_name}"
+msgstr "Arvostelu kohteelle {supplier}, kirjoittanut {reviewer_name}"
+
+msgid "review count"
+msgstr "Arvostelun laskelma"
+
+msgid "users would recommend"
+msgstr "käyttäjät suosittelevat"
+
+msgid "Vendor Review Rating"
+msgstr "Toimittajan arvostelu"
+
+msgid "Customer ratings title"
+msgstr "Asiakasarvostelut"
+
+msgid "Customer Ratings:"
+msgstr "Asiakasarviot:"
+
+msgid "Show number of customers that recommend the vendor"
+msgstr "Näytä myyjien suosittelevien asiakkaiden määrä"
+
+msgid "Whether to show number of customers that recommend the vendor."
+msgstr "Näytetäänkö myyjää suosittelevien asiakkaiden määrä."
+
+msgid "Vendor Review Comments"
+msgstr "Toimittajan arvostelukommentit"
+
+msgid "Title"
+msgstr "Otsikko"
+
+msgid "Reviews"
+msgstr "Arvostelut"
+
+msgid "No reviews text"
+msgstr "Ei arvosteluita"
+
+msgid "The vendor has no reviews."
+msgstr "Myyjällä ei ole arvosteluja."
+
+msgid "Load more reviews text"
+msgstr "Lataa lisää arvostelutekstiä"
+
+msgid "Load more comments"
+msgstr "Lataa lisää kommentteja"
+
+msgid "Last reviews"
+msgstr "Viimeisimmät arvostelut"
+
+msgid "You haven't made any reviews yet."
+msgstr "Et ole vielä kirjoittanut arvosteluja."
+
+msgid "Rating"
+msgstr "Luokitus"
+
+msgid "Comment"
+msgstr "Kommentti"
+
+msgid "Home"
+msgstr "Koti"
+
+msgid "Dashboard"
+msgstr "Kojelauta"
+
+msgid "Vendors to Review"
+msgstr "Tarkastettavat toimittajat"
+
+msgid "Would you recommend this vendor to a friend?"
+msgstr "Suosittelisitko tätä myyjää ystävällesi?"
+
+msgid "Send Review"
+msgstr "Lähetä arvostelu"
+
+msgid "No vendors to review."
+msgstr "Ei tarkistettavia toimittajia."

@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Panu Tulimäki <panu@shuup.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 21:52+0000\n"
+"PO-Revision-Date: 2019-03-12 23:48+0000\n"
+"Last-Translator: Panu Tulimäki <panu@shuup.com>, 2020\n"
+"Language-Team: Finnish (Finland) (https://www.transifex.com/shuup/teams/55306/fi_FI/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi_FI\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Product Reviews"
+msgstr "Tuotearvostelut"
+
+msgid "Reviewer"
+msgstr "Arvostelija"
+
+msgid "Rating"
+msgstr "Luokitus"
+
+msgid "Comment"
+msgstr "Kommentti"
+
+msgid "Status"
+msgstr "Tila"
+
+msgid "Product Reviews Settings"
+msgstr "Tuotearvostelujen asetukset"
+
+msgid "Show product reviews on dashboard"
+msgstr "Näytä tuotearvostelut kojelaudalla"
+
+msgid "Show product reviews on dashboard menu"
+msgstr "Näytä tuotearvostelut kojelautavalikossa"
+
+msgid "Approve reviews"
+msgstr "Hyväksy arvostelut"
+
+msgid "Reject reviews"
+msgstr "Hylkää arvostelut"
+
+msgid "Product"
+msgstr "Tuote"
+
+msgid "Filter by product..."
+msgstr "Suodata tuotteen mukaan ..."
+
+msgid "Reviews"
+msgstr "Arvostelut"
+
+msgid "Show all"
+msgstr "Näytä kaikki"
+
+msgid "Pending"
+msgstr "Odottaa"
+
+msgid "Approved"
+msgstr "Hyväksytty"
+
+msgid "Rejected"
+msgstr "Hylätty"
+
+msgid "shop"
+msgstr "myymälä"
+
+msgid "product"
+msgstr "tuote"
+
+msgid "reviewer"
+msgstr "arvostelija"
+
+msgid "order"
+msgstr "Tilaus"
+
+msgid "rating"
+msgstr "luokitus"
+
+msgid "comment"
+msgstr "kommentti"
+
+msgid "Would recommend to a friend?"
+msgstr "Suosittelisin ystävälle?"
+
+msgid "Indicates whether you would recommend this product to a friend."
+msgstr "Ilmaisee, suosittelisitko tätä tuotetta ystävällesi."
+
+#, python-brace-format
+msgid "Review for {product} by {reviewer_name}"
+msgstr "Arvostelu kohteelle {product}, kirjoittanut {reviewer_name}"
+
+msgid "review count"
+msgstr "Arvostelun laskelma"
+
+msgid "users would recommend"
+msgstr "käyttäjät suosittelevat"
+
+msgid "Product Review Rating"
+msgstr "Tuotearvosteluluokitus"
+
+msgid "Customer ratings title"
+msgstr "Asiakasarvostelut"
+
+msgid "Customer Ratings:"
+msgstr "Asiakasarviot:"
+
+msgid "Show number of customers that recommend the product"
+msgstr "Näytä asiakkaita, jotka suosittelevat tuotetta"
+
+msgid "Whether to show number of customers that recommend the product."
+msgstr "Näytetäänkö asiakkaita, jotka suosittelevat tuotetta."
+
+msgid "Product Review Comments"
+msgstr "Tuotearvostelukommentit"
+
+msgid "Title"
+msgstr "Otsikko"
+
+msgid "No reviews text"
+msgstr "Ei arvosteluita"
+
+msgid "The vendor has no reviews."
+msgstr "Myyjällä ei ole arvosteluja."
+
+msgid "Load more reviews text"
+msgstr "Lataa lisää arvostelutekstiä"
+
+msgid "Load more comments"
+msgstr "Lataa lisää kommentteja"
+
+msgid "Last reviews"
+msgstr "Viimeisimmät arvostelut"
+
+msgid "You haven't made any reviews yet."
+msgstr "Et ole vielä kirjoittanut arvosteluja."
+
+msgid "The product has no reviews."
+msgstr "Tuotteella ei ole arvosteluja."
+
+msgid "Load more reviews"
+msgstr "Lataa lisää arvosteluja"
+
+#, python-brace-format
+msgid ""
+"<strong>{recommend_count} of {reviews_count} "
+"({recommend_count_percent})</strong> reviewers would recommend this product "
+"to a friend."
+msgstr ""
+"<strong>{reviews_count} ({recommend_count_percent}) -tarkastajan "
+"{recommend_count}</strong> suosittelisi tätä tuotetta ystävälle."
+
+msgid "Home"
+msgstr "Koti"
+
+msgid "Dashboard"
+msgstr "Kojelauta"
+
+msgid "Products to Review"
+msgstr "Tarkastettavat tuotteet"
+
+msgid "Would you recommend this product to a friend?"
+msgstr "Suosittelisitko tätä tuotetta ystävällesi?"
+
+msgid "Send Review"
+msgstr "Lähetä arvostelu"
+
+msgid "No products to review."
+msgstr "Ei tarkistettavia tuotteita."

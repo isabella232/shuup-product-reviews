@@ -8,11 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Enter here all the changes made to the development version
 
-## [1.0.2] - 2020-09-28
+## [1.0.3] - 2020-09-28
 
 ### Fixed
 
 - Fix issue that was not rendering starts in vendor reviews with options
+
+
+## [1.0.2] - 2020-09-29
+
+- Update Finnish and Swedish translations
+
 
 ## [1.0.1] - 2020-09-04
 

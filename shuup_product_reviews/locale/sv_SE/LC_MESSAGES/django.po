@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Panu Tulimäki <panu@shuup.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 21:52+0000\n"
+"PO-Revision-Date: 2019-03-12 23:48+0000\n"
+"Last-Translator: Panu Tulimäki <panu@shuup.com>, 2020\n"
+"Language-Team: Swedish (Sweden) (https://www.transifex.com/shuup/teams/55306/sv_SE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv_SE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Product Reviews"
+msgstr "Produktrecensioner"
+
+msgid "Reviewer"
+msgstr "Recensent"
+
+msgid "Rating"
+msgstr "Betyg"
+
+msgid "Comment"
+msgstr "Kommentar"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Product Reviews Settings"
+msgstr "Inställningar för produktrecensioner"
+
+msgid "Show product reviews on dashboard"
+msgstr "Visa produktrecensioner på instrumentpanelen"
+
+msgid "Show product reviews on dashboard menu"
+msgstr "Visa produktrecensioner på instrumentpanelmenyn"
+
+msgid "Approve reviews"
+msgstr "Godkänn recensioner"
+
+msgid "Reject reviews"
+msgstr "Avvisa recensioner"
+
+msgid "Product"
+msgstr "Produkt"
+
+msgid "Filter by product..."
+msgstr "Filtrera efter produkt ..."
+
+msgid "Reviews"
+msgstr "Recensioner"
+
+msgid "Show all"
+msgstr "Visa allt"
+
+msgid "Pending"
+msgstr "I väntan på"
+
+msgid "Approved"
+msgstr "Godkänd"
+
+msgid "Rejected"
+msgstr "avvisade"
+
+msgid "shop"
+msgstr "affär"
+
+msgid "product"
+msgstr "produkt"
+
+msgid "reviewer"
+msgstr "recensent"
+
+msgid "order"
+msgstr "ordning"
+
+msgid "rating"
+msgstr "betyg"
+
+msgid "comment"
+msgstr "kommentar"
+
+msgid "Would recommend to a friend?"
+msgstr "Skulle rekommendera till en vän?"
+
+msgid "Indicates whether you would recommend this product to a friend."
+msgstr "Anger om du skulle rekommendera den här produkten till en vän."
+
+#, python-brace-format
+msgid "Review for {product} by {reviewer_name}"
+msgstr "Recension för {product} av {reviewer_name}"
+
+msgid "review count"
+msgstr "granskningsantal"
+
+msgid "users would recommend"
+msgstr "användare skulle rekommendera"
+
+msgid "Product Review Rating"
+msgstr "Betyg för produktgranskning"
+
+msgid "Customer ratings title"
+msgstr "Kundbetyg titel"
+
+msgid "Customer Ratings:"
+msgstr "Kundbetyg:"
+
+msgid "Show number of customers that recommend the product"
+msgstr "Visa antalet kunder som rekommenderar produkten"
+
+msgid "Whether to show number of customers that recommend the product."
+msgstr "Om du vill visa antalet kunder som rekommenderar produkten."
+
+msgid "Product Review Comments"
+msgstr "Kommentarer om produktgranskning"
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "No reviews text"
+msgstr "Ingen recensionstext"
+
+msgid "The vendor has no reviews."
+msgstr "Säljaren har inga recensioner."
+
+msgid "Load more reviews text"
+msgstr "Ladda fler recensioner"
+
+msgid "Load more comments"
+msgstr "Ladda fler kommentarer"
+
+msgid "Last reviews"
+msgstr "Senaste recensioner"
+
+msgid "You haven't made any reviews yet."
+msgstr "Du har inte gjort några recensioner ännu."
+
+msgid "The product has no reviews."
+msgstr "Produkten har inga recensioner."
+
+msgid "Load more reviews"
+msgstr "Ladda fler recensioner"
+
+#, python-brace-format
+msgid ""
+"<strong>{recommend_count} of {reviews_count} "
+"({recommend_count_percent})</strong> reviewers would recommend this product "
+"to a friend."
+msgstr ""
+"<strong>{recommend_count} av {reviews_count} "
+"({recommend_count_percent})</strong> granskare rekommenderar den här "
+"produkten till en vän."
+
+msgid "Home"
+msgstr "Hem"
+
+msgid "Dashboard"
+msgstr "instrumentbräda"
+
+msgid "Products to Review"
+msgstr "Produkter att granska"
+
+msgid "Would you recommend this product to a friend?"
+msgstr "Skulle du rekommendera den här produkten till en vän?"
+
+msgid "Send Review"
+msgstr "Skicka recension"
+
+msgid "No products to review."
+msgstr "Inga produkter att granska."
