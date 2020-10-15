@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Panu Tulimäki <panu@shuup.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-29 12:15+0000\n"
+"PO-Revision-Date: 2019-03-18 23:24+0000\n"
+"Last-Translator: Panu Tulimäki <panu@shuup.com>, 2020\n"
+"Language-Team: French (Canada) (https://www.transifex.com/shuup/teams/55306/fr_CA/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_CA\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Vendor Review Options"
+msgstr "Options d&#39;examen des fournisseurs"
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "Vendor Reviews"
+msgstr "Avis des fournisseurs"
+
+msgid "Vendor Reviews Settings"
+msgstr "Paramètres des avis des fournisseurs"
+
+msgid "Show vendor reviews on dashboard"
+msgstr "Afficher les avis des fournisseurs sur le tableau de bord"
+
+msgid "Show vendor reviews on dashboard menu"
+msgstr "Afficher les avis des fournisseurs sur le menu du tableau de bord"
+
+msgid "Vendor Reviews Option Settings"
+msgstr "Paramètres des options de révision des fournisseurs"
+
+msgid "Show vendor reviews with options on dashboard"
+msgstr ""
+"Afficher les avis des fournisseurs avec des options sur le tableau de bord"
+
+msgid "Show vendor reviews with option on dashboard menu"
+msgstr ""
+"Afficher les avis des fournisseurs avec option dans le menu du tableau de "
+"bord"
+
+msgid "Approve reviews"
+msgstr "Approuver les avis"
+
+msgid "Reject reviews"
+msgstr "Rejeter les avis"
+
+msgid "Vendor"
+msgstr "Vendeur"
+
+msgid "Filter by vendor..."
+msgstr "Filtrer par fournisseur ..."
+
+msgid "Vendor Review Option"
+msgstr "Option d&#39;examen des fournisseurs"
+
+msgid "Filter by option..."
+msgstr "Filtrer par option ..."
+
+#, python-format
+msgid "%s has been deleted."
+msgstr "%s a été supprimé."
+
+msgid "A review for this vendor already exists."
+msgstr "Un examen pour ce fournisseur existe déjà."
+
+msgid "Show all"
+msgstr "Afficher tout"
+
+msgid "shop"
+msgstr "boutique"
+
+msgid "enabled"
+msgstr "activée"
+
+msgid "supplier"
+msgstr "fournisseur"
+
+msgid "reviewer"
+msgstr "critique"
+
+msgid "rating"
+msgstr "évaluation"
+
+msgid "comment"
+msgstr "commentaire"
+
+msgid "Would recommend to a friend?"
+msgstr "Je le recommanderais à un ami?"
+
+msgid "Indicates whether you would recommend this product to a friend."
+msgstr "Indique si vous recommanderiez ce produit à un ami."
+
+#, python-brace-format
+msgid "{option}Review for {supplier} by {reviewer_name}"
+msgstr "{option} Évaluation de {supplier} par {reviewer_name}"
+
+msgid "review count"
+msgstr "nombre d&#39;avis"
+
+msgid "users would recommend"
+msgstr "les utilisateurs recommanderaient"
+
+msgid "Vendor Review Created"
+msgstr "Examen du fournisseur créé"
+
+msgid "Vendor Review"
+msgstr "Revue du fournisseur"
+
+msgid "Customer Email"
+msgstr "Email client"
+
+msgid "Customer Phone"
+msgstr "Téléphone client"
+
+msgid "Shop Email"
+msgstr "Email de la boutique"
+
+msgid "Shop Phone"
+msgstr "Téléphone de la boutique"
+
+msgid "Vendor Review Rating"
+msgstr "Évaluation des avis des fournisseurs"
+
+msgid "Customer ratings title"
+msgstr "Titre des évaluations des clients"
+
+msgid "Customer Ratings:"
+msgstr "Évaluations des clients:"
+
+msgid "Show number of customers that recommend the vendor"
+msgstr "Afficher le nombre de clients qui recommandent le fournisseur"
+
+msgid "Whether to show number of customers that recommend the vendor."
+msgstr ""
+"Indique s&#39;il faut afficher le nombre de clients qui recommandent le "
+"fournisseur."
+
+msgid "Vendor Review Comments"
+msgstr "Commentaires de l&#39;examen du fournisseur"
+
+msgid "Title"
+msgstr "Titre"
+
+msgid "Reviews"
+msgstr "Commentaires"
+
+msgid "No reviews text"
+msgstr "Aucun texte d&#39;avis"
+
+msgid "The vendor has no reviews."
+msgstr "Le vendeur n&#39;a pas d&#39;avis."
+
+msgid "Load more reviews text"
+msgstr "Charger plus de texte d&#39;avis"
+
+msgid "Load more comments"
+msgstr "Charger plus de commentaires"
+
+msgid "Options"
+msgstr "Options"
+
+msgid "Select the option you want to show"
+msgstr "Sélectionnez l&#39;option que vous souhaitez afficher"
+
+msgid "Vendor Review Option Rating"
+msgstr "Évaluation des options d&#39;évaluation des fournisseurs"
+
+msgid "Vendor Review Option Comments"
+msgstr "Commentaires sur l&#39;option de révision du fournisseur"
+
+msgid "Last reviews"
+msgstr "Dernières critiques"
+
+msgid "You haven't made any reviews yet."
+msgstr "Vous n&#39;avez encore fait aucun commentaire."
+
+msgid "Rating"
+msgstr "Évaluation"
+
+msgid "Home"
+msgstr "Accueil"
+
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+msgid "Vendors to Review"
+msgstr "Fournisseurs à examiner"
+
+msgid "Option: {}"
+msgstr "Option: {}"
+
+msgid "Send Review"
+msgstr "Envoyer un avis"
+
+msgid "No vendors to review."
+msgstr "Aucun fournisseur à examiner."
+
+msgid "I would recommend this to a friend"
+msgstr "Je recommanderais ceci à un ami"

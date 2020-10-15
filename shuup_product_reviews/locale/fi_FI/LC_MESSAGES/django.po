@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
+# Andreas Modinos <andreas@shuup.com>, 2020
 # Panu Tulimäki <panu@shuup.com>, 2020
 # 
 #, fuzzy
@@ -11,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-11 21:52+0000\n"
+"POT-Creation-Date: 2020-01-15 08:36+0000\n"
 "PO-Revision-Date: 2019-03-12 23:48+0000\n"
 "Last-Translator: Panu Tulimäki <panu@shuup.com>, 2020\n"
 "Language-Team: Finnish (Finland) (https://www.transifex.com/shuup/teams/55306/fi_FI/)\n"
@@ -44,6 +45,12 @@ msgstr "Näytä tuotearvostelut kojelaudalla"
 
 msgid "Show product reviews on dashboard menu"
 msgstr "Näytä tuotearvostelut kojelautavalikossa"
+
+msgid "Product types to ignore"
+msgstr "Poisluettavat tuotelajit"
+
+msgid "Select all product types that should be ignored from reviews"
+msgstr "Valitse kaikki tuotelajit joista EI tehdä arvosteluja."
 
 msgid "Approve reviews"
 msgstr "Hyväksy arvostelut"
@@ -106,6 +113,27 @@ msgstr "Arvostelun laskelma"
 msgid "users would recommend"
 msgstr "käyttäjät suosittelevat"
 
+msgid "Product Review Created"
+msgstr "Tuote arvosteltu "
+
+msgid "Product Review"
+msgstr "Tuotearvostelu"
+
+msgid "Customer Email"
+msgstr "Asiakkaan sähköpostiosoite"
+
+msgid "Customer Phone"
+msgstr "Asiakkaan puhelinnumero"
+
+msgid "Shop Email"
+msgstr "Myymälän sähköpostiosoite"
+
+msgid "Shop Phone"
+msgstr "Myymälän puhelinnumero"
+
+msgid "Language"
+msgstr "Kieli"
+
 msgid "Product Review Rating"
 msgstr "Tuotearvosteluluokitus"
 
@@ -157,8 +185,9 @@ msgid ""
 "({recommend_count_percent})</strong> reviewers would recommend this product "
 "to a friend."
 msgstr ""
-"<strong>{reviews_count} ({recommend_count_percent}) -tarkastajan "
-"{recommend_count}</strong> suosittelisi tätä tuotetta ystävälle."
+"<strong>{recommend_count} / {reviews_count} tai "
+"({recommend_count_percent})</strong> arvostelijoista suosittelisi tätä "
+"tuotetta ystävälle."
 
 msgid "Home"
 msgstr "Koti"
@@ -169,11 +198,11 @@ msgstr "Kojelauta"
 msgid "Products to Review"
 msgstr "Tarkastettavat tuotteet"
 
-msgid "Would you recommend this product to a friend?"
-msgstr "Suosittelisitko tätä tuotetta ystävällesi?"
-
 msgid "Send Review"
 msgstr "Lähetä arvostelu"
 
 msgid "No products to review."
 msgstr "Ei tarkistettavia tuotteita."
+
+msgid "I would recommend this to a friend"
+msgstr "Suosittelisin tuotetta kavereille"

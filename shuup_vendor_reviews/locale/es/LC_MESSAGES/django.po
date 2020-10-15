@@ -14,194 +14,195 @@ msgstr ""
 "POT-Creation-Date: 2020-09-29 12:15+0000\n"
 "PO-Revision-Date: 2019-03-18 23:24+0000\n"
 "Last-Translator: Panu Tulimäki <panu@shuup.com>, 2020\n"
-"Language-Team: Swedish (Sweden) (https://www.transifex.com/shuup/teams/55306/sv_SE/)\n"
+"Language-Team: Spanish (https://www.transifex.com/shuup/teams/55306/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sv_SE\n"
+"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Vendor Review Options"
-msgstr "Alternativ för leverantörsgranskning"
+msgstr "Opciones de revisión del proveedor"
 
 msgid "Name"
-msgstr "namn"
+msgstr "Nombre"
 
 msgid "Vendor Reviews"
-msgstr "Leverantörsrecensioner"
+msgstr "Reseñas de proveedores"
 
 msgid "Vendor Reviews Settings"
-msgstr "Inställningar för leverantörsrecensioner"
+msgstr "Configuración de revisiones de proveedores"
 
 msgid "Show vendor reviews on dashboard"
-msgstr "Visa leverantörsrecensioner på instrumentpanelen"
+msgstr "Mostrar reseñas de proveedores en el panel"
 
 msgid "Show vendor reviews on dashboard menu"
-msgstr "Visa leverantörsrecensioner på instrumentpanelmenyn"
+msgstr "Mostrar reseñas de proveedores en el menú del panel"
 
 msgid "Vendor Reviews Option Settings"
-msgstr "Alternativinställningar för leverantörsrecensioner"
+msgstr "Configuración de opciones de revisiones de proveedores"
 
 msgid "Show vendor reviews with options on dashboard"
-msgstr "Visa leverantörsrecensioner med alternativ på instrumentpanelen"
+msgstr "Mostrar reseñas de proveedores con opciones en el panel"
 
 msgid "Show vendor reviews with option on dashboard menu"
-msgstr "Visa leverantörsrecensioner med alternativ på instrumentpanelmenyn"
+msgstr "Mostrar reseñas de proveedores con la opción en el menú del panel"
 
 msgid "Approve reviews"
-msgstr "Godkänn recensioner"
+msgstr "Aprobar revisiones"
 
 msgid "Reject reviews"
-msgstr "Avvisa recensioner"
+msgstr "Rechazar reseñas"
 
 msgid "Vendor"
-msgstr "Säljare"
+msgstr "Vendedor"
 
 msgid "Filter by vendor..."
-msgstr "Filtrera efter leverantör ..."
+msgstr "Filtrar por proveedor ..."
 
 msgid "Vendor Review Option"
-msgstr "Alternativ för leverantörsgranskning"
+msgstr "Opción de revisión del proveedor"
 
 msgid "Filter by option..."
-msgstr "Filtrera efter alternativ ..."
+msgstr "Filtrar por opción ..."
 
 #, python-format
 msgid "%s has been deleted."
-msgstr "%s har tagits bort."
+msgstr "%s se ha eliminado."
 
 msgid "A review for this vendor already exists."
-msgstr "Det finns redan en recension för den här leverantören."
+msgstr "Ya existe una revisión para este proveedor."
 
 msgid "Show all"
-msgstr "Visa allt"
+msgstr "Mostrar todo"
 
 msgid "shop"
-msgstr "affär"
+msgstr "tienda"
 
 msgid "enabled"
-msgstr "aktiverad"
+msgstr "habilitado"
 
 msgid "supplier"
-msgstr "leverantör"
+msgstr "proveedor"
 
 msgid "reviewer"
-msgstr "recensent"
+msgstr "crítico"
 
 msgid "rating"
-msgstr "betyg"
+msgstr "clasificación"
 
 msgid "comment"
-msgstr "kommentar"
+msgstr "comentario"
 
 msgid "Would recommend to a friend?"
-msgstr "Skulle rekommendera till en vän?"
+msgstr "¿Se lo recomendaría a un amigo?"
 
 msgid "Indicates whether you would recommend this product to a friend."
-msgstr "Anger om du skulle rekommendera den här produkten till en vän."
+msgstr "Indica si recomendaría este producto a un amigo."
 
 #, python-brace-format
 msgid "{option}Review for {supplier} by {reviewer_name}"
-msgstr "{option} Recension för {supplier} av {reviewer_name}"
+msgstr "{option} Revisión de {supplier} por {reviewer_name}"
 
 msgid "review count"
-msgstr "granskningsantal"
+msgstr "recuento de reseñas"
 
 msgid "users would recommend"
-msgstr "användare skulle rekommendera"
+msgstr "los usuarios recomendarían"
 
 msgid "Vendor Review Created"
-msgstr "Leverantörsrecension skapad"
+msgstr "Revisión del proveedor creada"
 
 msgid "Vendor Review"
-msgstr "Leverantörsgranskning"
+msgstr "Revisión del proveedor"
 
 msgid "Customer Email"
-msgstr "Kundens e-post"
+msgstr "Correo electrónico del cliente"
 
 msgid "Customer Phone"
-msgstr "Kundtelefon"
+msgstr "Teléfono del cliente"
 
 msgid "Shop Email"
-msgstr "Handla e-post"
+msgstr "Correo electrónico de la tienda"
 
 msgid "Shop Phone"
-msgstr "Handla telefon"
+msgstr "Comprar teléfono"
 
 msgid "Vendor Review Rating"
-msgstr "Betyg för leverantörsgranskning"
+msgstr "Calificación de revisión del proveedor"
 
 msgid "Customer ratings title"
-msgstr "Kundbetyg titel"
+msgstr "Título de las calificaciones de los clientes"
 
 msgid "Customer Ratings:"
-msgstr "Kundbetyg:"
+msgstr "Valoraciones de los clientes:"
 
 msgid "Show number of customers that recommend the vendor"
-msgstr "Visa antalet kunder som rekommenderar säljaren"
+msgstr "Muestra el número de clientes que recomiendan al proveedor."
 
 msgid "Whether to show number of customers that recommend the vendor."
-msgstr "Huruvida antalet kunder som rekommenderar leverantören ska visas."
+msgstr ""
+"Ya sea para mostrar el número de clientes que recomiendan al proveedor."
 
 msgid "Vendor Review Comments"
-msgstr "Kommentarer från leverantörsgranskning"
+msgstr "Comentarios de revisión del proveedor"
 
 msgid "Title"
-msgstr "Titel"
+msgstr "Título"
 
 msgid "Reviews"
-msgstr "Recensioner"
+msgstr "Reseñas"
 
 msgid "No reviews text"
-msgstr "Ingen recensionstext"
+msgstr "No hay comentarios de texto"
 
 msgid "The vendor has no reviews."
-msgstr "Säljaren har inga recensioner."
+msgstr "El proveedor no tiene reseñas."
 
 msgid "Load more reviews text"
-msgstr "Ladda fler recensioner"
+msgstr "Cargar más texto de reseñas"
 
 msgid "Load more comments"
-msgstr "Ladda fler kommentarer"
+msgstr "Cargar más comentarios"
 
 msgid "Options"
-msgstr "alternativ"
+msgstr "Opciones"
 
 msgid "Select the option you want to show"
-msgstr "Välj det alternativ du vill visa"
+msgstr "Seleccione la opción que desea mostrar"
 
 msgid "Vendor Review Option Rating"
-msgstr "Betyg för leverantörsgranskningsalternativ"
+msgstr "Calificación de la opción de revisión del proveedor"
 
 msgid "Vendor Review Option Comments"
-msgstr "Kommentarer om leverantörsgranskningsalternativ"
+msgstr "Comentarios de la opción de revisión del proveedor"
 
 msgid "Last reviews"
-msgstr "Senaste recensioner"
+msgstr "Últimas reseñas"
 
 msgid "You haven't made any reviews yet."
-msgstr "Du har inte gjort några recensioner ännu."
+msgstr "Aún no has hecho ninguna reseña."
 
 msgid "Rating"
-msgstr "Betyg"
+msgstr "Clasificación"
 
 msgid "Home"
-msgstr "Hem"
+msgstr "Casa"
 
 msgid "Dashboard"
-msgstr "instrumentbräda"
+msgstr "Tablero"
 
 msgid "Vendors to Review"
-msgstr "Leverantörer att granska"
+msgstr "Proveedores para revisar"
 
 msgid "Option: {}"
-msgstr "Alternativ: {}"
+msgstr "Opción: {}"
 
 msgid "Send Review"
-msgstr "Skicka recension"
+msgstr "Enviar reseña"
 
 msgid "No vendors to review."
-msgstr "Inga leverantörer att granska."
+msgstr "No hay proveedores para revisar."
 
 msgid "I would recommend this to a friend"
-msgstr "Jag skulle rekommendera detta till en vän"
+msgstr "Recomendaría esto a un amigo"

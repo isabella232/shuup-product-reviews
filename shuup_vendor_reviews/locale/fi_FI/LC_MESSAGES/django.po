@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-11 21:52+0000\n"
+"POT-Creation-Date: 2020-09-29 12:15+0000\n"
 "PO-Revision-Date: 2019-03-18 23:24+0000\n"
 "Last-Translator: Panu Tulimäki <panu@shuup.com>, 2020\n"
 "Language-Team: Finnish (Finland) (https://www.transifex.com/shuup/teams/55306/fi_FI/)\n"
@@ -20,6 +20,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fi_FI\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Vendor Review Options"
+msgstr "Toimittajan tarkistusvaihtoehdot"
+
+msgid "Name"
+msgstr "Nimi"
 
 msgid "Vendor Reviews"
 msgstr "Vendor arvostelut"
@@ -33,6 +39,15 @@ msgstr "Näytä toimittajan arvostelut kojelaudalla"
 msgid "Show vendor reviews on dashboard menu"
 msgstr "Näytä toimittajan arvostelut kojelautavalikossa"
 
+msgid "Vendor Reviews Option Settings"
+msgstr "Toimittaja tarkistaa vaihtoehtojen asetukset"
+
+msgid "Show vendor reviews with options on dashboard"
+msgstr "Näytä toimittajien arvostelut ja hallintapaneelin vaihtoehdot"
+
+msgid "Show vendor reviews with option on dashboard menu"
+msgstr "Näytä toimittajan arvostelut kojelautavalikon vaihtoehdolla"
+
 msgid "Approve reviews"
 msgstr "Hyväksy arvostelut"
 
@@ -45,11 +60,27 @@ msgstr "Myyjä"
 msgid "Filter by vendor..."
 msgstr "Suodata toimittajan mukaan ..."
 
+msgid "Vendor Review Option"
+msgstr "Toimittajan tarkistusvaihtoehto"
+
+msgid "Filter by option..."
+msgstr "Suodata vaihtoehdon mukaan ..."
+
+#, python-format
+msgid "%s has been deleted."
+msgstr "%s on poistettu."
+
+msgid "A review for this vendor already exists."
+msgstr "Tämän toimittajan arvostelu on jo olemassa."
+
 msgid "Show all"
 msgstr "Näytä kaikki"
 
 msgid "shop"
 msgstr "myymälä"
+
+msgid "enabled"
+msgstr "käytössä"
 
 msgid "supplier"
 msgstr "toimittaja"
@@ -70,14 +101,32 @@ msgid "Indicates whether you would recommend this product to a friend."
 msgstr "Osoittaa, suosittelisitko tätä tuotetta ystävällesi."
 
 #, python-brace-format
-msgid "Review for {supplier} by {reviewer_name}"
-msgstr "Arvostelu kohteelle {supplier}, kirjoittanut {reviewer_name}"
+msgid "{option}Review for {supplier} by {reviewer_name}"
+msgstr "{option} Arvostelu kohteelle {supplier}, kirjoittanut {reviewer_name}"
 
 msgid "review count"
 msgstr "Arvostelun laskelma"
 
 msgid "users would recommend"
 msgstr "käyttäjät suosittelevat"
+
+msgid "Vendor Review Created"
+msgstr "Toimittajan arvostelu luotu"
+
+msgid "Vendor Review"
+msgstr "Toimittajan tarkistus"
+
+msgid "Customer Email"
+msgstr "Asiakkaan sähköposti"
+
+msgid "Customer Phone"
+msgstr "Asiakkaan puhelin"
+
+msgid "Shop Email"
+msgstr "Osta sähköposti"
+
+msgid "Shop Phone"
+msgstr "Kauppa Puhelin"
 
 msgid "Vendor Review Rating"
 msgstr "Toimittajan arvostelu"
@@ -115,6 +164,18 @@ msgstr "Lataa lisää arvostelutekstiä"
 msgid "Load more comments"
 msgstr "Lataa lisää kommentteja"
 
+msgid "Options"
+msgstr "Vaihtoehdot"
+
+msgid "Select the option you want to show"
+msgstr "Valitse vaihtoehto, jonka haluat näyttää"
+
+msgid "Vendor Review Option Rating"
+msgstr "Toimittajan tarkistusvaihtoehdon luokitus"
+
+msgid "Vendor Review Option Comments"
+msgstr "Toimittajan tarkistusvaihtoehdon kommentit"
+
 msgid "Last reviews"
 msgstr "Viimeisimmät arvostelut"
 
@@ -123,9 +184,6 @@ msgstr "Et ole vielä kirjoittanut arvosteluja."
 
 msgid "Rating"
 msgstr "Luokitus"
-
-msgid "Comment"
-msgstr "Kommentti"
 
 msgid "Home"
 msgstr "Koti"
@@ -136,11 +194,14 @@ msgstr "Kojelauta"
 msgid "Vendors to Review"
 msgstr "Tarkastettavat toimittajat"
 
-msgid "Would you recommend this vendor to a friend?"
-msgstr "Suosittelisitko tätä myyjää ystävällesi?"
+msgid "Option: {}"
+msgstr "Vaihtoehto: {}"
 
 msgid "Send Review"
 msgstr "Lähetä arvostelu"
 
 msgid "No vendors to review."
 msgstr "Ei tarkistettavia toimittajia."
+
+msgid "I would recommend this to a friend"
+msgstr "Suosittelisin tätä ystävällesi"

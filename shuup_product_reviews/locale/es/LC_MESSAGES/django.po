@@ -14,169 +14,171 @@ msgstr ""
 "POT-Creation-Date: 2020-01-15 08:36+0000\n"
 "PO-Revision-Date: 2019-03-12 23:48+0000\n"
 "Last-Translator: Panu Tulimäki <panu@shuup.com>, 2020\n"
-"Language-Team: Swedish (Sweden) (https://www.transifex.com/shuup/teams/55306/sv_SE/)\n"
+"Language-Team: Spanish (https://www.transifex.com/shuup/teams/55306/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sv_SE\n"
+"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Product Reviews"
-msgstr "Produktrecensioner"
+msgstr "Reseñas de productos"
 
 msgid "Reviewer"
-msgstr "Recensent"
+msgstr "Crítico"
 
 msgid "Rating"
-msgstr "Betyg"
+msgstr "Clasificación"
 
 msgid "Comment"
-msgstr "Kommentar"
+msgstr "Comentario"
 
 msgid "Status"
-msgstr "Status"
+msgstr "Estado"
 
 msgid "Product Reviews Settings"
-msgstr "Inställningar för produktrecensioner"
+msgstr "Configuración de reseñas de productos"
 
 msgid "Show product reviews on dashboard"
-msgstr "Visa produktrecensioner på instrumentpanelen"
+msgstr "Mostrar reseñas de productos en el panel"
 
 msgid "Show product reviews on dashboard menu"
-msgstr "Visa produktrecensioner på instrumentpanelmenyn"
+msgstr "Mostrar reseñas de productos en el menú del panel"
 
 msgid "Product types to ignore"
-msgstr "Produkttyper att ignorera"
+msgstr "Tipos de productos para ignorar"
 
 msgid "Select all product types that should be ignored from reviews"
-msgstr "Välj alla produkttyper som ska ignoreras från recensioner"
+msgstr ""
+"Seleccione todos los tipos de productos que deben ignorarse en las reseñas"
 
 msgid "Approve reviews"
-msgstr "Godkänn recensioner"
+msgstr "Aprobar revisiones"
 
 msgid "Reject reviews"
-msgstr "Avvisa recensioner"
+msgstr "Rechazar reseñas"
 
 msgid "Product"
-msgstr "Produkt"
+msgstr "Producto"
 
 msgid "Filter by product..."
-msgstr "Filtrera efter produkt ..."
+msgstr "Filtrar por producto ..."
 
 msgid "Reviews"
-msgstr "Recensioner"
+msgstr "Reseñas"
 
 msgid "Show all"
-msgstr "Visa allt"
+msgstr "Mostrar todo"
 
 msgid "Pending"
-msgstr "I väntan på"
+msgstr "Pendiente"
 
 msgid "Approved"
-msgstr "Godkänd"
+msgstr "Aprobado"
 
 msgid "Rejected"
-msgstr "avvisade"
+msgstr "Rechazado"
 
 msgid "shop"
-msgstr "affär"
+msgstr "tienda"
 
 msgid "product"
-msgstr "produkt"
+msgstr "producto"
 
 msgid "reviewer"
-msgstr "recensent"
+msgstr "crítico"
 
 msgid "order"
-msgstr "ordning"
+msgstr "orden"
 
 msgid "rating"
-msgstr "betyg"
+msgstr "clasificación"
 
 msgid "comment"
-msgstr "kommentar"
+msgstr "comentario"
 
 msgid "Would recommend to a friend?"
-msgstr "Skulle rekommendera till en vän?"
+msgstr "¿Se lo recomendaría a un amigo?"
 
 msgid "Indicates whether you would recommend this product to a friend."
-msgstr "Anger om du skulle rekommendera den här produkten till en vän."
+msgstr "Indica si recomendaría este producto a un amigo."
 
 #, python-brace-format
 msgid "Review for {product} by {reviewer_name}"
-msgstr "Recension för {product} av {reviewer_name}"
+msgstr "Revisión de {product} por {reviewer_name}"
 
 msgid "review count"
-msgstr "granskningsantal"
+msgstr "recuento de reseñas"
 
 msgid "users would recommend"
-msgstr "användare skulle rekommendera"
+msgstr "los usuarios recomendarían"
 
 msgid "Product Review Created"
-msgstr "Produktrecension skapad"
+msgstr "Revisión de producto creada"
 
 msgid "Product Review"
-msgstr "Produktrecension"
+msgstr "Revision de producto"
 
 msgid "Customer Email"
-msgstr "Kundens e-post"
+msgstr "Correo electrónico del cliente"
 
 msgid "Customer Phone"
-msgstr "Kundtelefon"
+msgstr "Teléfono del cliente"
 
 msgid "Shop Email"
-msgstr "Handla e-post"
+msgstr "Correo electrónico de la tienda"
 
 msgid "Shop Phone"
-msgstr "Handla telefon"
+msgstr "Comprar teléfono"
 
 msgid "Language"
-msgstr "Språk"
+msgstr "Idioma"
 
 msgid "Product Review Rating"
-msgstr "Betyg för produktgranskning"
+msgstr "Calificación de revisión de producto"
 
 msgid "Customer ratings title"
-msgstr "Kundbetyg titel"
+msgstr "Título de las calificaciones de los clientes"
 
 msgid "Customer Ratings:"
-msgstr "Kundbetyg:"
+msgstr "Valoraciones de los clientes:"
 
 msgid "Show number of customers that recommend the product"
-msgstr "Visa antalet kunder som rekommenderar produkten"
+msgstr "Muestra el número de clientes que recomiendan el producto."
 
 msgid "Whether to show number of customers that recommend the product."
-msgstr "Om du vill visa antalet kunder som rekommenderar produkten."
+msgstr ""
+"Ya sea para mostrar el número de clientes que recomiendan el producto."
 
 msgid "Product Review Comments"
-msgstr "Kommentarer om produktgranskning"
+msgstr "Comentarios de revisión de producto"
 
 msgid "Title"
-msgstr "Titel"
+msgstr "Título"
 
 msgid "No reviews text"
-msgstr "Ingen recensionstext"
+msgstr "No hay comentarios de texto"
 
 msgid "The vendor has no reviews."
-msgstr "Säljaren har inga recensioner."
+msgstr "El proveedor no tiene reseñas."
 
 msgid "Load more reviews text"
-msgstr "Ladda fler recensioner"
+msgstr "Cargar más texto de reseñas"
 
 msgid "Load more comments"
-msgstr "Ladda fler kommentarer"
+msgstr "Cargar más comentarios"
 
 msgid "Last reviews"
-msgstr "Senaste recensioner"
+msgstr "Últimas reseñas"
 
 msgid "You haven't made any reviews yet."
-msgstr "Du har inte gjort några recensioner ännu."
+msgstr "Aún no has hecho ninguna reseña."
 
 msgid "The product has no reviews."
-msgstr "Produkten har inga recensioner."
+msgstr "El producto no tiene reseñas."
 
 msgid "Load more reviews"
-msgstr "Ladda fler recensioner"
+msgstr "Cargar más reseñas"
 
 #, python-brace-format
 msgid ""
@@ -184,24 +186,23 @@ msgid ""
 "({recommend_count_percent})</strong> reviewers would recommend this product "
 "to a friend."
 msgstr ""
-"<strong>{recommend_count} av {reviews_count} "
-"({recommend_count_percent})</strong> granskare rekommenderar den här "
-"produkten till en vän."
+"<strong>{recommend_count} de {reviews_count} ({recommend_count_percent}) "
+"los</strong> revisores recomendarían este producto a un amigo."
 
 msgid "Home"
-msgstr "Hem"
+msgstr "Casa"
 
 msgid "Dashboard"
-msgstr "instrumentbräda"
+msgstr "Tablero"
 
 msgid "Products to Review"
-msgstr "Produkter att granska"
+msgstr "Productos para revisar"
 
 msgid "Send Review"
-msgstr "Skicka recension"
+msgstr "Enviar reseña"
 
 msgid "No products to review."
-msgstr "Inga produkter att granska."
+msgstr "No hay productos para revisar."
 
 msgid "I would recommend this to a friend"
-msgstr "Jag skulle rekommendera detta till en vän"
+msgstr "Recomendaría esto a un amigo"
