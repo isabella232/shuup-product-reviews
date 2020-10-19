@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Enter here all the changes made to the development version
 
+
+## [1.0.6] - 2020-10-19
+
+- Add plugin to to render vendor reviews per option
+
+
 ## [1.0.5] - 2020-10-09
 
 ### Added
