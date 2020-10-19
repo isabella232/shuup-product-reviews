@@ -1,0 +1,91 @@
+<div>
+    {% if main_title %}
+        <h3>{% trans %}{{main_title}}{% endtrans %}</h3>
+    {% endif %}
+    {% set elements = ratings.items() %}
+    {% set first_el = options[0] %}
+    <div class="vendor-reviews-tabs" role="tabpanel">
+        <ul class="nav nav-tabs nav-justified" role="tablist">
+            {% for option, rating_reviews in elements %}
+                {% if first_el == option %}
+                    {% set active = True %}
+                {% else %}
+                    {% set active = False %}
+                {% endif %}
+                <li role="presentation"{% if active %} class="active"{% endif %}>
+                    <a href="#{{ option.pk }}-review-tab" aria-controls="{{ option.pk }}-review-tab" role="tab" data-toggle="tab" class="vendor-review-tab">
+                        {{ option }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+        
+        <div class="tab-content">
+        {% for option, rating_reviews in elements %}
+            <div role="tabpanel" class="tab-pane fade {% if first_el == option %}active in{% endif %}" id="{{ option.pk }}-review-tab">
+                <div class="review-option-rating">
+                    <h3>{{ option }}</h3>
+                </div>
+                <div class="product-reviews-rating-star{% if minified %} minified{% endif %}">
+                    {% if minified %}
+                        <span class="stars">
+                            <i class="fa fa-star star-rating-full" aria-hidden="true"></i>
+                        </span>
+                        <span class="rating">
+                            {{ "%0.1f"|format(rating) }}
+                            <span class="sr-only">{{ _("Rating") }}&nbsp;</span>
+                        </span>
+                        <span class="count">
+                            <span aria-hidden="true">
+                                ({{ rating_reviews.reviews }})
+                            </span>
+                            <span class="sr-only">
+                                {%- trans reviews_count=rating_reviews.reviews -%}
+                                    {{ reviews_count }} review
+                                {%- pluralize -%}
+                                    {{ reviews_count }} reviews 
+                                {%- endtrans -%}
+                            </span>
+                        </span>
+                    {% else %}
+                        {% if customer_ratings_title %}
+                            <div class="customer-rating-label">
+                                <h3>{{ customer_ratings_title }}</h3>
+                            </div>
+                        {% endif %}
+                        <span class="stars">
+                            {% for full_star in range(rating_reviews.full_stars) %}
+                                <i class="fa fa-star star-rating-full"></i>
+                            {% endfor %}
+                            {% if half_star %}
+                                <i class="fa fa-star-half-o star-rating-half"></i>
+                            {% endif %}
+                            {% for empty_star in range(rating_reviews.empty_stars) %}
+                                <i class="fa fa-star-o star-rating-empty"></i>
+                            {% endfor %}
+                        </span>
+                        <span class="rating">
+                            {{ "%0.1f"|format(rating_reviews.rating) }}
+                            <span class="sr-only">{{ _("Rating") }}&nbsp;</span>
+                        </span>
+                        <span class="count">
+                            {%- trans reviews_count=rating_reviews.reviews -%}
+                                {{ reviews_count }} review
+                            {%- pluralize -%}
+                                {{ reviews_count }} reviews
+                            {%- endtrans -%}
+                        </span>
+                    {% endif %}
+                </div>
+                <div
+                    class="product-review-comments"
+                    data-url="{{ url('shuup:vendor_review_comments_options', pk=supplier.pk, option=rating_reviews.option.pk) }}"
+                    data-no-reviews-text="{{ no_reviews_text or _('The vendor has no reviews.') }}"
+                    data-load-more-text="{{ load_more_text or _('Load more comments') }}"
+                    data-option="{{rating_reviews.option.pk}}"
+                ></div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</div>
