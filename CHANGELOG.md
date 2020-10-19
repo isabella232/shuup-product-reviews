@@ -13,6 +13,8 @@ Enter here all the changes made to the development version
 ### Added
 
 - Add containers with classes to target the elements in Vendor Review Option Rating
+- Create Vendor Reviews Option Tabs plugin
+  Each tab will contain the overall rating and the comments of the Review Option selected.
 
 
 ## [1.0.3] - 2020-09-28

@@ -26,7 +26,8 @@ class AppConfig(shuup.apps.AppConfig):
             "shuup_vendor_reviews.plugins.VendorReviewCommentsPlugin",
             "shuup_vendor_reviews.plugins.VendorReviewOptionStarRatingsPlugin",
             "shuup_vendor_reviews.plugins.VendorReviewOptionCommentsPlugin",
-        ],
+            "shuup_vendor_reviews.plugins.VendorReviewOptionTabs",
+            ],
         "customer_dashboard_items": [
             "shuup_vendor_reviews.dashboard_items:VendorReviewDashboardItem",
             "shuup_vendor_reviews.dashboard_items:VendorReviewWithOptionsDashboardItem"
