@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-29 12:15+0000\n"
+"POT-Creation-Date: 2020-10-19 08:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -172,10 +172,23 @@ msgstr ""
 msgid "Vendor Review Option Comments"
 msgstr ""
 
+msgid "Select the options you want to show"
+msgstr ""
+
+msgid "Vendor Review Option Tabs"
+msgstr ""
+
+msgid "Main title"
+msgstr ""
+
 msgid "Last reviews"
 msgstr ""
 
 msgid "You haven't made any reviews yet."
+msgstr ""
+
+#, python-format
+msgid "%(main_title)s"
 msgstr ""
 
 msgid "Rating"
