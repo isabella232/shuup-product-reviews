@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Enter here all the changes made to the development version
 
+
+## [1.0.7] - 2020-10-28
+
 ### Fixed
 
 - Use Shuup static util to fetch the current version of the addon
