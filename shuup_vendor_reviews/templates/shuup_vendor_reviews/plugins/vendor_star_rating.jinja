@@ -48,6 +48,15 @@
                     {{ reviews_count }} reviews
                 {%- endtrans -%}
             </span>
+            {% if show_recommenders and would_recommend %}
+                <div class="recommend">
+                    {{ _("<strong>{recommend_count} of {reviews_count} ({recommend_count_percent})</strong> reviewers would recommend this product to a friend.").format(
+                        reviews_count=reviews,
+                        recommend_count=would_recommend,
+                        recommend_count_percent=would_recommend_perc|percent,
+                    ) }}
+                </div>
+            {% endif %}
         {% endif %}
     </div>
 {% endif %}
