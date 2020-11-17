@@ -21,6 +21,7 @@
         </ul>
         
         <div class="tab-content">
+        {% if elements %}
         {% for option, rating_reviews in elements %}
             <div role="tabpanel" class="tab-pane fade {% if first_el == option %}active in{% endif %}" id="{{ option.pk }}-review-tab">
                 <div class="review-option-rating">
@@ -48,11 +49,6 @@
                             </span>
                         </span>
                     {% else %}
-                        {% if customer_ratings_title %}
-                            <div class="customer-rating-label">
-                                <h3>{{ customer_ratings_title }}</h3>
-                            </div>
-                        {% endif %}
                         <span class="stars">
                             {% for full_star in range(rating_reviews.full_stars) %}
                                 <i class="fa fa-star star-rating-full"></i>
@@ -80,12 +76,15 @@
                 <div
                     class="product-review-comments"
                     data-url="{{ url('shuup:vendor_review_comments_options', pk=supplier.pk, option=rating_reviews.option.pk) }}"
-                    data-no-reviews-text="{{ no_reviews_text or _('The vendor has no reviews.') }}"
+                    data-no-reviews-text="{{ _('There are no review comments.') }}"
                     data-load-more-text="{{ load_more_text or _('Load more comments') }}"
-                    data-option="{{rating_reviews.option.pk}}"
+                    data-option="{{ rating_reviews.option.pk }}"
                 ></div>
             </div>
         {% endfor %}
+        {% else %}
+            {{ no_reviews_text or _('There are no reviews.') }}
+        {% endif %}
         </div>
     </div>
 </div>

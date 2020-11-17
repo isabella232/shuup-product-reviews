@@ -256,7 +256,7 @@ class VendorReviewOptionTabsSelectionConfigForm(GenericPluginForm):
 
 class VendorReviewOptionTabs(TemplatedPlugin):
     identifier = "shuup_vendor_reviews.option_reviews_tabs"
-    name = _("Vendor Review Option Tabs")
+    name = _("Vendor Review Options Tabs")
     template_name = "shuup_vendor_reviews/plugins/vendor_reviews_option_tabs.jinja"
     required_context_variables = ["supplier"]
 
@@ -318,10 +318,10 @@ class VendorReviewOptionTabs(TemplatedPlugin):
                         "would_recommend_perc": supplier_rating["would_recommend"] / rating_reviews,
                         "show_recommenders": self.config.get("show_recommenders", False),
                         "option": option,
-                        "no_reviews_text": self.get_translated_value("no_reviews_text"),
                         "load_more_text": self.get_translated_value("load_more_text")
                     }})
-
+            
+            context["no_reviews_text"] = self.get_translated_value("no_reviews_text")
             context["main_title"] = self.get_translated_value("main_title")
             context["options"] = options
             context.update({"ratings": ratings})
