@@ -320,7 +320,7 @@ class VendorReviewOptionTabs(TemplatedPlugin):
                         "option": option,
                         "load_more_text": self.get_translated_value("load_more_text")
                     }})
-            
+
             context["no_reviews_text"] = self.get_translated_value("no_reviews_text")
             context["main_title"] = self.get_translated_value("main_title")
             context["options"] = options
