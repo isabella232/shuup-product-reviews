@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Enter here all the changes made to the development version
 
+### Added
+
+- Add classes to target the Vendor Star Rating elements
+
 
 ## [1.0.7] - 2020-10-28
 
