@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 Enter here all the changes made to the development version
+### Added
+
+- Add classes to target the Vendor Reviews Option Tabs elements
 
 ### Fixed
 

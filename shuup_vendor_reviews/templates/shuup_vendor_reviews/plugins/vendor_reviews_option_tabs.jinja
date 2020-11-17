@@ -1,6 +1,6 @@
-<div>
+<div class="vendor-reviews-tabs-container">
     {% if main_title %}
-        <h3>{% trans %}{{main_title}}{% endtrans %}</h3>
+        <h3 class="vendor-reviews-tabs-title">{% trans %}{{ main_title }}{% endtrans %}</h3>
     {% endif %}
     {% set elements = ratings.items() %}
     {% set first_el = options[0] %}
