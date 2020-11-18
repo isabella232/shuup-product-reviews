@@ -10,12 +10,14 @@ Enter here all the changes made to the development version
 
 ### Added
 
+- Add classes to target the Vendor Reviews Option Tabs elements
+
+### Fixed
+
+- Display No Review Text in Vendor Reviews Option Tabs
+- Add Show Recommenders to Vendor Reviews Option Tabs
 - Add classes to target the Vendor Star Rating elements
-
-
-### Fixed 
 - Add Show Recommenders to Vendor Star Rating
-
 
 ## [1.0.7] - 2020-10-28
 
